@@ -1,0 +1,30 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+h1 {
+    background-color: white;
+    color: black;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login_input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login_button {
+    background-color: #FF5A5F;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}

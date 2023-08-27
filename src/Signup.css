@@ -1,0 +1,30 @@
+.signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+h1 {
+    background-color: white;
+    color: black;
+}
+
+.signup_form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.signup_input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.signup_button {
+    background-color: #FF5A5F;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
